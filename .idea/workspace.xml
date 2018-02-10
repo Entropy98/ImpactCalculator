@@ -43,6 +43,7 @@
     <option name="width" value="1400" />
     <option name="height" value="990" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -65,6 +66,11 @@
             <path>
               <item name="Speed-Reader" type="b2602c69:ProjectViewProjectNode" />
               <item name="Speed-Reader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Speed-Reader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Speed-Reader" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -191,12 +197,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1518278760813</updated>
-      <workItem from="1518278766229" duration="147000" />
+      <workItem from="1518278766229" duration="263000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147000" />
+    <option name="totallyTimeSpent" value="263000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />

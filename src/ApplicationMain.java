@@ -26,7 +26,7 @@ public class ApplicationMain extends Application{
     private static String text;
     private static double wpm = 0.0;
     private static Label displayedText;
-    private static String displayed;
+    private static String displayed = "Alice";
     public static void main(String[] args){
         launch(args);
     }
@@ -72,6 +72,7 @@ public class ApplicationMain extends Application{
 
         displayedText = new Label();
         displayedText.setFont(new Font(80));
+        displayedText.setText("Alice");
 
         Platform.runLater(() -> displayedText.setText(displayed));
 

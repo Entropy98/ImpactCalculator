@@ -1,0 +1,2 @@
+# ImpactCalculator
+Tartan Hacks Project

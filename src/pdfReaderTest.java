@@ -9,11 +9,12 @@ public class pdfReaderTest{
         PDDocument doc = PDDocument.load(pdfFile);
         return new PDFTextStripper().getText(doc);
     }
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         try {
-            String text = getText(new File("C:\\Users\\nigel\\OneDrive\\Documents\\151 HW\\HW 1.pdf"));
+            String currentDir = System.getProperty("user.dir");
+            String text = getText(new File("\\pdfs\\hw3.pdf"));
             String[] t = text.trim().split("\\s+");
-        } catch (IOException e) {
+        } catch (IOException e) {///
             e.printStackTrace();
         }
     }

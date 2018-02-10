@@ -11,7 +11,7 @@ public class pdfReaderTest{
     }
     public static void main(String args[]) {
         try {
-            String text = getText(new File("C:\\Users\\nigel\\OneDrive\\Documents\\151 HW\\HW 1.pdf"));
+            String text = getText(new File("C:\\Users\\vidhi\\Documents\\Patel.Vidhi.resume.pdf"));
             String[] t = text.trim().split("\\s+");
         } catch (IOException e) {
             e.printStackTrace();

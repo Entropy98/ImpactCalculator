@@ -9,11 +9,17 @@ public class pdfReaderTest{
         PDDocument doc = PDDocument.load(pdfFile);
         return new PDFTextStripper().getText(doc);
     }
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         try {
+<<<<<<< HEAD
             String text = getText(new File("C:\\Users\\vidhi\\Documents\\Patel.Vidhi.resume.pdf"));
+=======
+
+            String currentDir = System.getProperty("user.dir");
+            String text = getText(new File("\\pdfs\\hw3.pdf"));
+>>>>>>> cd37c524552570c5274e65143883479343245bc8
             String[] t = text.trim().split("\\s+");
-        } catch (IOException e) {
+        } catch (IOException e) {///
             e.printStackTrace();
         }
     }
